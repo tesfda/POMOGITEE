@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    height: 100vh;
+    width: 100vw;
+    background-color: #ede0d4;
+    position: relative;
+    display: flex;
+}
+
+.header video {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    z-index: 0;
+}
+
+.content {
+    z-index: 1;
+    width: 100vw;
+    color: #a68a64;
+    font-size: 32px;
+    font-family: 'Unbounded', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.about {
+    margin-top: 30px;
+    padding: 0px;
+    display: flex;
+    gap: 30px;
+}
+.decoration {
+    background: url(vk.png);
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-size: cover;
+}
+.tg {
+    background: url(tg.png);
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-size: cover;
+}
+.mail {
+    background: url(ocr.jpg);
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-size: cover;
+}
+.polina {
+    font-family: 'El Messiri', sans-serif;
+    font-size: 30px;
+    color: #5e3719;
+
+}
+.dasha {
+    font-size: 35px;
+    text-align: center;
+    color: #5e3719;
+    background-color: #ede0d4 ;
+    font-family: 'El Messiri', sans-serif;
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Unbounded', sans-serif;
+}
+body {
+    background-color: #ede0d4;
+}
+button {
+    background-color: #8d6b48;
+    border-radius: 4px;
+    border: 2px solid #8d6b48;
+    padding: 10px 24px;
+}
+
+button:hover {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    color: #F1F2EE;
+    background-color: #8d6b48;
+}
